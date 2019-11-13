@@ -2,8 +2,6 @@
 
 ### css
 
-入门靠看书，熟练靠项目，需在项目中总结常用的布局方式
-
 * css设计指南 （入门）https://book.douban.com/subject/23123255/
 
 ### js基础
@@ -14,6 +12,7 @@
 ### js进阶
 
 * 前端面试之道：https://yuchengkai.cn/docs/frontend/
+* JavaScript设计模式与开发实践：https://book.douban.com/subject/26382780/
 * 进阶系统教程：https://www.bilibili.com/video/av59901831?from=search&seid=5550220286716053729
 
 ### ES6
@@ -32,3 +31,4 @@
 
 * 文档：https://cn.vuejs.org/
 * 视频：https://www.bilibili.com/video/av57079985?from=search&seid=9245321709488314460
+

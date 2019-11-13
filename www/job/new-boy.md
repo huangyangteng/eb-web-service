@@ -4,39 +4,9 @@
 1. 上下班记得打卡，工作时长计算公式（最后一次打卡时间 - 最早一次打卡时间-午休时间1小时）
 2. 领取办公用品(插线板、垃圾桶、台式机、笔记本、钥匙等)，找张晓莉
 3. 试用期，每天发送工作日报，日报格式见下文。试用期结束转正后，每天填写每周工作备忘 
-4. 每周五必须发送工作周报，记录一周工作，格式见下文
-5. 公司版本管理使用svn，svn教程(https://www.runoob.com/svn/tortoisesvn-intro.html) 新员工需要开通svn权限(@段嘉嘉)，svn密码每周更新，企业邮箱会发来邮件告知最新的密码
-6. 一些基本信息，比如wifi密码、连接打印机、服务器账号、项目信息等，可以在群内通过调用`call+指令`获取，可以首先执行`call help`获取所有指令
-
-```js
-通过call调用相应的命令
---------------------------------------
-通用
-call wifi　 wifi密码
-call printer 连接打印机
-call website 常用网址
-call ppt　 　公司ppt模板/logo
-call google　 　科学上网
--------------------------
-开发
-call server 服务器地址，账号，密码
-call ip　 ip地址合集
-call iconfont　 iconfont账号合集
-call jenkins　 　 　jenkins持续集成
---------------------
-项目：
-boce 拨测项目
-muban 铃音模板制作项目
-qy 企业视频彩铃管理员网站
-sx-h5 陕西h5
---------------------
-教程
-js　 js语言教程（基础+进阶+es6）
-js frame js框架（jquery+vue）
-cs 计算机基础（算法+网络）
-```
-
-
+4. 每周五必须发送工作周报，记录一周工作，周报格式见最后
+5. 公司版本管理使用svn，svn基本教程(https://www.runoob.com/svn/tortoisesvn-intro.html) 新员工需要开通svn权限(@段嘉嘉)，svn密码每周更新，企业邮箱会发来邮件告知最新的密码
+6. 一些基本信息，比如wifi密码、连接打印机、服务器账号、项目信息等，可以在qq群内通过调用`call+指令`获取，可以首先执行`call help`获取所有指令
 
 ## 前端
 
@@ -63,33 +33,34 @@ cs 计算机基础（算法+网络）
 
 ### 前端编码规范
 
-不同的开发方式有不同的规范，但有些是通用的
+#### 通用规范（必读）
 
-#### 编码准则（必读）
-
-建议隔段时间通读一次（若链接失效，可从附件中下载）
-
-http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy
-
-#### 通用规范
-
-
+[链接,按住ctrl键，点击，在新页面打开](./common.html)
 
 #### vue单页开发规范
 
-
+[链接,按住ctrl键，点击，在新页面打开](./vue-single.html)
 
 #### jquery应用开发规范
 
-
+[链接,按住ctrl键，点击，在新页面打开](./jquery.html)
 
 #### vue多页开发规范
 
+[链接,按住ctrl键，点击，在新页面打开](./vue-multiple.html)
+
+### 如何写出好的代码
+
+[如何为变量取名字](https://zhuanlan.zhihu.com/p/53360901)
+
+[编程的智慧-王艮](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy)
 
 
-### 前端学习资源
+### 学习资源
 
+[前端](./web.html)
 
+[计算机基础](./cs.html)
 
 ## 补充
 
