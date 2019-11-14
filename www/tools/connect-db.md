@@ -14,7 +14,7 @@
 
 ![image-20191112113339749](https://tva1.sinaimg.cn/large/006y8mN6ly1g8v3ml1mrsj30te0kowjk.jpg)
 
-![image-20191112113925759](https://tva1.sinaimg.cn/large/006y8mN6ly1g8v3sl7kv3j30gd0fm76m.jpg)
+![image-20191114130028848](https://tva1.sinaimg.cn/large/006y8mN6ly1g8xhdi6vugj30g80fgq80.jpg)
 
 
 ## 数据库位置
@@ -27,19 +27,12 @@
 
 ## 连接信息
 
-对照连接信息与下图进行连接
-
 ```java
 spring.datasource.driver-class-name=com.informix.jdbc.IfxDriver
 spring.datasource.url=jdbc:informix-sqli://10.1.69.150:7779/d
 spring.datasource.username=jiangxi
-spring.datasource.password=1qaz@WSX
+spring.datasource.password=******   //密码问别人
 ```
-
-
-
-
-![image-20191112110824885](https://tva1.sinaimg.cn/large/006y8mN6ly1g8v2wczqxoj30mp0cajsq.jpg)
 
 
 
