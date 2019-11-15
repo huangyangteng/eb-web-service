@@ -37,3 +37,9 @@
 
 * [编程的智慧-王艮](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy)
 
+
+
+## 说明
+
+* [勘误](fix.html)
+* [为资料库添加内容](start.html) 

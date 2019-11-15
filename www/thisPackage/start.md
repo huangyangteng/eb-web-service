@@ -10,7 +10,11 @@ https://www.jianshu.com/p/191d1e21f7ed
 
 ## 第三步 加入github仓库,并拉取
 
-https://github.com/huangyangteng/eb-web-service
+> 前端成员已发送加入仓库的邀请.如果想要加入仓库发送github账号至huangyangteng@ebupt.com
+>
+> 也可以提出pull request https://juejin.im/post/5b5d50bd5188251b3e646c5c
+
+* 仓库地址：https://github.com/huangyangteng/eb-web-service
 
 ## 第四步 用typora编辑器打开该仓库下的index.md
 
@@ -34,4 +38,4 @@ https://github.com/huangyangteng/eb-web-service
 
 将index.md导出为index.html，覆盖掉dist之前的文件，然后github提交
 
-提交后1min左右就可以看到最新的内容
+提交后1min左右就可以在[这里](http://10.1.62.116:8888/)看到最新内容
