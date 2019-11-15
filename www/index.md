@@ -1,7 +1,13 @@
 # 媒体产品部前端资料
 > 按住ctrl键，点击链接，可在新页面打开
+## 版本控制
+
+* [svn](svn.html)
+* [git](git.html)
+
 ## 工具
 
+* [vscode使用教程](vscode.html)
 * [postman使用教程](postman.html)
 * [informix数据库图形界面使用](connect-db.html)
 * [vscode编辑器教程](https://www.jianguoyun.com/p/DUS0z5UQ0vvwBxjss5cC)

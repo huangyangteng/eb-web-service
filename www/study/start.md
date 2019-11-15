@@ -8,7 +8,7 @@
 
 https://www.jianshu.com/p/191d1e21f7ed
 
-## 第三步 拉github仓库
+## 第三步 加入github仓库,并拉取
 
 https://github.com/huangyangteng/eb-web-service
 

@@ -29,7 +29,7 @@
 
 * 为方便团队成员交流，统一使用`vscode`
 * 如果之前所用其他编辑器，可下载相应编辑器的快捷键包
-* 编辑器教程：https://www.jianguoyun.com/p/DUS0z5UQ0vvwBxjss5cC
+* 编辑器教程：https://www.jianguoyun.com/p/DdKrWEcQ0vvwBxic_pkC
 
 ### 前端编码规范
 
