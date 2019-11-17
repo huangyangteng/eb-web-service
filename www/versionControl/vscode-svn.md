@@ -2,7 +2,7 @@
 
 ## 下载
 
-svn插件需要依赖本地装有svn程序
+svn插件需要依赖本地装有svn server端，
 
 程序下载地址：
 
@@ -44,9 +44,15 @@ https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm
 
 
 
-#### 2. 加入暂存区
+#### 2. 加入暂存区(set changeList)
 
-在跟目录下新建 `test-svn`文件夹，在文件夹下新建`test.html`，在侧边栏就会显示更改
+在svn中，有一个`（变更列表）changeList`的概念，可以将不同的任务的代码变更统一到一起，例如：
+
+![image-20191117215707687](https://tva1.sinaimg.cn/large/006y8mN6gy1g91dr8r6clj30d70az3zi.jpg)
+
+
+
+在根目录下新建 `test-svn`文件夹，在文件夹下新建`test.html`，在侧边栏就会显示更改
 
 ![image-20191115131118145](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ynbizhx6j30mk0ldmyj.jpg)
 
@@ -60,7 +66,13 @@ https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm
 
 ![image-20191115142703487](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypibzhusj30np08vq4d.jpg)
 
-### 4. 提交暂存区的内容到版本库
+### 4.0  将暂存区的内容加入`changeList`
+
+鼠标移动到文件改动上，右键选择`set changeList`，根据功能，将代码加入不同的变更列表
+
+代码不加入changeList也可以正常提交，加入只是为了区分任务,，分功能点进行提交
+
+### 4.1  提交暂存区的内容到版本库
 
 ![image-20191115142830213](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypju3oqej30dn0gjdgw.jpg)
 
