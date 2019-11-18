@@ -8,4 +8,4 @@
 
 在github仓库上提出issue
 
-https://github.com/huangyangteng/eb-web-service
+仓库地址：https://github.com/huangyangteng/eb-web-service
