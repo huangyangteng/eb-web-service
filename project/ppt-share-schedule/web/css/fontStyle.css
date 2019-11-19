@@ -1,0 +1,21 @@
+@font-face {
+  /*站酷高端黑*/
+  font-family: 'ZKGaoDuanHei';
+  src: url('../fonts/ZKGaoDuanHei.ttf') format('truetype');
+}
+@font-face {
+  /*站酷快乐体*/
+  font-family: 'ZKKuaiLeTi';
+  src: url('../fonts/ZKKuaiLeTi.ttf') format('truetype');
+}
+@font-face {
+  /*站酷黄油*/
+  font-family: 'ZKhuangyou';
+  src: url('../fonts/zcoolqingkehuangyouti-Regular.woff') format('truetype');
+}
+
+@font-face {
+  /*站酷黄油*/
+  font-family: 'huangyou';
+  src: url('../fonts/ZKhuangyou.ttf') format('truetype');
+}

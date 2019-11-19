@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/animate.min.css">
+    <link rel="stylesheet" href="./css/fontStyle.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./lib/vue.js"></script>
+    <script src="./lib/dayjs.min.js"></script>
+</head>
+<body>
+    
+    <section id="share-app" class="animated fadeIn">
+        <h1>PPT分享排期</h1>
+        <h3 class="first-guy animated jello delay-1s">
+            <b>{{1}}</b>
+            <span>{{firstGuy.name}}</span>
+            <span>{{firstGuy.date}}</span>
+            <span>倒计时：{{firstGuy.remain}}</span>
+        </h3>
+        <div class="share-guys">
+            <h3 v-if="index!=0" v-for="(item,index) in shareList" class="share-item">
+                <b>{{index+1}}</b>
+                <span>{{item.name}}</span>
+                <span>{{item.date}}</span>
+                <span>倒计时：{{item.remain}}</span>
+            </h3>
+        </div>
+
+    </section>
+    <script src="./js/index.js"></script>
+
+</body>
+</html>
