@@ -24,6 +24,7 @@
 * [通用规范](common.html)
 * [vue单页应用开发规范](vue-single.html)
 * [vue多页开发规范](vue-multiple.html)
+* [vue组件开发规范](vue-component.html)
 * [jquery开发规范](jquery.html)
 
 ## 前端项目搭建

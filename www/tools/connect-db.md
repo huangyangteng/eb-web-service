@@ -1,5 +1,7 @@
 # 图形界面工具连接数据库(informix)
 
+[toc]
+
 ## 下载软件
 
 下载地址：https://www.dbvis.com/download/10.0
