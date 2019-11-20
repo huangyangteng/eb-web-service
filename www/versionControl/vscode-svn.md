@@ -38,6 +38,10 @@ https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm
 
 检出完成后，把项目拖进vscode进行编辑
 
+### 注意事项
+
+vscode根据项目下的.svn文件，进行版本管理的，把项目拖入vscode时不要一次拖入多个，一个svn项目拖入一个vscode窗口
+
 ### 常用操作
 
 #### 1. 查看文件变更历史
