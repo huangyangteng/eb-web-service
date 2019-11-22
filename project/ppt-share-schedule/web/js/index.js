@@ -43,7 +43,7 @@ SHARE_LIST.forEach(function(item,index){
         var startDay=dayjs(item.date)
         item.remain=startDay.diff(today,'day') + '天'
     }else{
-        item.remain=index+'周'
+        item.remain=index+1+'周'
     }
 })
 sessionStorage.setItem('share',JSON.stringify(SHARE_LIST))
