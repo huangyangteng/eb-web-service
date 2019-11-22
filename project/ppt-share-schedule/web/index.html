@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="./css/index.css">
     <script src="./lib/vue.js"></script>
     <script src="./lib/dayjs.min.js"></script>
+    <style>
+         [v-cloak]{
+             display:none;
+         }
+    </style>
 </head>
 <body>
     
@@ -31,7 +36,7 @@
         </div>
 
     </section>
-    <script src="./js/index.js"></script>
+    <script>document.write("<script src='./js/index.js?v=" + Date.now() + "'><\/script>")</script>
 
 </body>
 </html>
