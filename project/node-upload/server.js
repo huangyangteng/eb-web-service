@@ -2,7 +2,7 @@ const http=require('http')
 const fs=require('fs')
 
 var IMG_PACKAGE_PATH='./img'
-var SERVER_HOST='http://10.4.0.147:7777/'
+var SERVER_HOST='http://111.229.14.189:9999/'
 
 
 
