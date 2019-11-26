@@ -150,151 +150,9 @@ iframe { max-width: 100%; width: 100%; border: none; }
 svg[id^="mermaidChart"] { line-height: 1em; }
 
 
-/* 注：感谢：MamoruDS, 这个文件的大部分内容来自 https://github.com/MamoruDS/typora-vue-dark-theme. */
-
-.md-rawblock-control:not(.md-rawblock-tooltip) {
-    background: #555;
-    color: #fff;
-}
-
-.md-rawblock-on-edit>.md-rawblock-tooltip, .md-rawblock:hover>.md-rawblock-container, .md-rawblock:hover>.md-rawblock-tooltip {
-    background: #555;
-    color: #fff;
-}
-
-/* code color */
-.cm-s-inner .cm-keyword {
-    color: #bb7fc3
-}
-
-.cm-s-inner .cm-atom, .cm-s-inner.cm-atom {
-    color: #9088cc
-}
-
-.cm-s-inner .cm-number {
-    color: #88b2a1
-}
-
-.cm-s-inner .cm-def {
-    color: #7f7fff
-}
-
-.cm-s-inner .cm-variable {
-    color: #efefef
-}
-
-.cm-s-inner .cm-variable-2 {
-    color: #7faad4
-}
-
-.cm-s-inner .cm-variable-3 {
-    color: #7fc3aa
-}
-
-.cm-s-inner .cm-string {
-    color: #d48888
-}
-
-.cm-s-inner .cm-property {
-    color: #efefef
-}
-
-.cm-s-inner .cm-operator {
-    color: #cb8c8c
-}
-
-.cm-s-inner .cm-comment, .cm-s-inner.cm-comment {
-    color: hsl(0, 0%, 35%)
-}
-
-.cm-s-inner .cm-string-2 {
-    color: #ffaa7f
-}
-
-.cm-s-inner .cm-meta {
-    color: hsl(0, 0%, 33%)
-}
-
-.cm-s-inner .cm-qualifier {
-    color: hsl(0, 0%, 33%)
-}
-
-.cm-s-inner .cm-builtin {
-    color: #997fd4
-}
-
-.cm-s-inner .cm-bracket {
-    color: #ccccbb
-}
-
-.cm-s-inner .cm-tag {
-    color: #88bb7f
-}
-
-.cm-s-inner .cm-attribute {
-    color: #7f7fe5
-}
-
-.cm-s-inner .cm-header, .cm-s-inner.cm-header {
-    color: #7f7fff
-}
-
-.cm-s-inner .cm-quote, .cm-s-inner.cm-quote {
-    color: #7fcc7f
-}
-
-.cm-s-inner .cm-hr, .cm-s-inner.cm-hr {
-    color: hsl(0, 0%, 60%)
-}
-
-.cm-s-inner .cm-link, .cm-s-inner.cm-link {
-    color: #7f7fe5
-}
-
-.cm-negative {
-    color: #eea1a1
-}
-
-.cm-positive {
-    color: #90cc90
-}
-
-.cm-header, .cm-strong {
-    font-weight: 700
-}
-
-.cm-error {
-    color: #ff7f7f
-}
-
-.cm-invalidchar {
-    color: #ff7f7f
-}
-
-.cm-constant {
-    color: #42b983
-}
-
-.cm-defined {
-    color: #dac37f
-}
-
-div.CodeMirror span.CodeMirror-matchingbracket {
-    color: #7fff7f
-}
-
-div.CodeMirror span.CodeMirror-nonmatchingbracket {
-    color: #ff9090
-}:root {
-    --side-bar-bg-color: #343333;
-    /* --side-bar-bg-color: #fff; */
-    --control-text-color: #ffffff;
-    /* --control-text-color: #777; */
-    /* --select-text-bg-color: hsla(153, 47%, 49%, 0.5); */
-    --select-text-bg-color: hsl(153, 47%, 40%);
-    --select-text-font-color: #fff;
-    --bg-color: #1d1d1d;
-    --item-hover-bg-color: #fff;
+:root {
+    --side-bar-bg-color: #fff;
+    --control-text-color: #777;
 }
 
 /* cyrillic-ext */
@@ -331,8 +189,7 @@ html {
 
 body {
     font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif !important;
-    color: #ffffff;
-    background-color: #1f1f1f;
+    color: #34495e;
     -webkit-font-smoothing: antialiased;
     line-height: 1.6rem;
     letter-spacing: 0;
@@ -343,19 +200,16 @@ body {
 #write {
     max-width: 860px;
     margin: 0 auto;
-    padding: 20px 30px 40px 30px;
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding: 20px 30px 100px;
 }
 
 #write p {
-    /* text-indent: 2rem; */
     line-height: 1.6rem;
     word-spacing: .05rem;
 }
 
 #write ol li {
-    padding-left: 0.5rem;
+    text-indent: 0.5rem;
 }
 
 #write > ul:first-child,
@@ -374,7 +228,7 @@ body > *:last-child {
 a {
     color: #42b983;
     font-weight: 600;
-    padding: 0px 2px;
+    padding: 0 2px;
     text-decoration: none;
 }
 
@@ -403,32 +257,37 @@ h6:hover a.anchor {
 
 h1 tt,
 h1 code {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 h2 tt,
 h2 code {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 h3 tt,
 h3 code {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 h4 tt,
 h4 code {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 h5 tt,
 h5 code {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 h6 tt,
 h6 code {
-    font-size: inherit;
+    font-size: inherit !important;
+}
+
+h2 a,
+h3 a {
+    color: #34495e;
 }
 
 h1 {
@@ -440,15 +299,15 @@ h1 {
 h2 {
     font-size: 1.75rem;
     line-height: 1.225;
-    margin: 35px 0px 15px 0px;
+    margin: 35px 0 15px;
     padding-bottom: 0.5em;
-    border-bottom: 2px solid hsl(0, 0%, 20%);
+    border-bottom: 1px solid #ddd;
 }
 
 h3 {
     font-size: 1.4rem;
     line-height: 1.43;
-    margin: 20px 0px 7px 0px;
+    margin: 20px 0 7px;
 }
 
 h4 {
@@ -461,7 +320,7 @@ h5 {
 
 h6 {
     font-size: 1rem;
-    color: hsl(0, 0%, 53%);
+    color: #777;
 }
 
 p,
@@ -482,7 +341,7 @@ hr {
     height: 2px;
     padding: 0;
     margin: 16px 0;
-    background-color: hsl(0, 0%, 18%);
+    background-color: #e7e7e7;
     border: 0 none;
     overflow: hidden;
     box-sizing: content-box;
@@ -551,34 +410,30 @@ ol:last-child {
 
 blockquote {
     border-left: 4px solid #42b983;
-    padding: 10px 0px 10px 15px;
-    color: #fff;
+    padding: 10px 15px;
+    color: #777;
     background-color: rgba(66, 185, 131, .1);
 }
 
 table {
-    font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important;
-    font-size: 0.85rem;
     padding: 0;
     word-break: initial;
 }
 
 table tr {
-    border-top: 1px solid hsl(210, 10%, 11%);
+    border-top: 1px solid #dfe2e5;
     margin: 0;
     padding: 0;
 }
 
 table tr:nth-child(2n),
 thead {
-    /* background-color: hsl(0, 0%, 2%); */
-    background-color: hsl(0, 0%, 10%);
+    background-color: #fafafa;
 }
 
 table tr th {
     font-weight: bold;
-    /* border: 1px solid hsl(210, 10%, 11%); */
-    border: transparent;
+    border: 1px solid #dfe2e5;
     border-bottom: 0;
     text-align: left;
     margin: 0;
@@ -586,9 +441,7 @@ table tr th {
 }
 
 table tr td {
-    /* border: 2px solid hsl(210, 10%, 11%); */
-    /* border: 2px solid hsl(0, 0%, 4%); */
-    border: 2px solid #1d1d1d;
+    border: 1px solid #dfe2e5;
     text-align: left;
     margin: 0;
     padding: 6px 13px;
@@ -605,16 +458,15 @@ table tr td:last-child {
 }
 
 #write strong {
-    padding: 0px 1px 0 1px;
+    padding: 0 1px;
 }
 
 #write em {
-    padding: 0px 5px 0 2px;
+    padding: 0 5px 0 2px;
 }
 
 #write table thead th {
-    /* background-color: hsl(0, 0%, 5%); */
-    background-color: hsl(0, 0%, 9%);
+    background-color: #f2f2f2;
 }
 
 #write .CodeMirror-gutters {
@@ -622,16 +474,14 @@ table tr td:last-child {
 }
 
 #write .md-fences {
-    border: 1px solid hsl(0, 0%, 11%);
+    border: 1px solid #F4F4F4;
     -webkit-font-smoothing: initial;
     margin: 0.8rem 0 !important;
-    padding: 0.3rem 0rem !important;
+    padding: 0.3rem 0 !important;
     line-height: 1.43rem;
-    color: hsl(0, 0%, 78%);
-    background-color: hsl(0, 0%, 10%) !important;
+    background-color: #F8F8F8 !important;
     border-radius: 2px;
-    font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important;
-    font-weight: bold;
+    font-family: Roboto Mono, Source Sans Pro, Monaco, courier, monospace !important;
     font-size: 0.85rem;
     word-wrap: normal;
 }
@@ -644,16 +494,15 @@ table tr td:last-child {
     margin: 0 2px;
     padding: 2px 4px;
     border-radius: 2px;
-    font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important;
-    font-weight: bold;
-    font-size: 0.85rem;
-    color: #f3b37f;
-    background-color: hsla(0, 0%, 0%, 0.2);
+    font-family: Roboto Mono, Source Sans Pro, Monaco, courier, monospace !important;
+    font-size: 0.92rem;
+    color: #e96900;
+    background-color: #f8f8f8;
 }
 
 #write .md-footnote {
-    background-color: hsla(0, 0%, 0%, 0.2);
-    color: #f3b37f;
+    background-color: #f8f8f8;
+    color: #e96900;
 }
 
 /* heighlight. */
@@ -683,13 +532,6 @@ table tr td:last-child {
     margin-left: -1.3em;
 }
 
-@media screen and (min-width: 914px) {
-    /*body {
-        width: 854px;
-        margin: 0 auto;
-    }*/
-}
-
 @media print {
     html {
         font-size: 13px;
@@ -705,14 +547,18 @@ table tr td:last-child {
     }
 }
 
+.md-fences {
+    background-color: #f8f8f8;
+}
+
 #write pre.md-meta-block {
     padding: 1rem;
     font-size: 85%;
     line-height: 1.45;
-    background-color: hsl(0, 0%, 3%);
+    background-color: #f7f7f7;
     border: 0;
     border-radius: 3px;
-    color: hsl(0, 0%, 53%);
+    color: #777777;
     margin-top: 0 !important;
 }
 
@@ -743,7 +589,7 @@ table tr td:last-child {
 .md-image > .md-meta {
     border-radius: 3px;
     font-family: Consolas, "Liberation Mono", Courier, monospace;
-    padding: 2px 0px 0px 4px;
+    padding: 2px 0 0 4px;
     font-size: 0.9em;
     color: inherit;
 }
@@ -767,8 +613,8 @@ table tr td:last-child {
 }
 
 #typora-quick-open-item {
-    background-color: hsl(0, 0%, 2%);
-    border-color: hsl(0, 0%, 0%) hsl(0, 0%, 10%) hsl(0, 0%, 10%) hsl(0, 0%, 7%);
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
     border-style: solid;
     border-width: 1px;
 }
@@ -796,157 +642,22 @@ footer {
 }
 
 .mac-seamless-mode #typora-sidebar {
-    background-color: hsl(0, 0%, 2%);
     background-color: var(--side-bar-bg-color);
 }
 
 .md-lang {
-    color: #42b983;
+    color: #b4654d;
 }
 
 .html-for-mac .context-menu {
-    --item-hover-bg-color: hsl(215, 92%, 5%);
+    --item-hover-bg-color: #E6F0FE;
 }
 
-#typora-sidebar {
-    /* font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important; */
-    font-family: Helvetica, Arial !important;
-    font-weight: bold;
-}
-
-.file-list-item-summary{
-    font-family: Helvetica, Arial !important;
-    font-weight: 400;
-}
-
-.file-list-item {
-    border-bottom: 0.15rem solid hsl(0, 0%, 18%);
-}
-
-.file-list-item.active {
-    background: hsl(0, 0%, 15%) !important;
-}
-
-.file-node-background {
-    height: 29px;
-}
-
-#toc-dropmenu {
-    background: hsl(0, 0%, 18%) !important;
-    /* font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important; */
-    font-weight: bold;
-}
-
-#toc-content {
-    margin-top: 1.0rem;
-    margin-bottom: 1.0rem;
-}
-
-#toc-content a:hover {
-    text-decoration: none;
-}
-
-.outline-item {
-    /* transition: color 150ms, background-color 150ms; */
-    transition: color 150ms;
-}
-
-.outline-item:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #42b983;
-}
-
-.sidebar-footer {
-    border-top: 2px solid hsl(0, 0%, 15%) !important;
-}
-
-.footer-item:hover, .sidebar-footer-item:hover {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-}
-
-.file-tree-node.active>.file-node-background {
-    background-color: hsl(0, 0%, 15%) !important;
-}
-
-.file-node-content:hover {
-    color: #fff;
-}
-
-html{
-    background: #1f1f1f !important;
-}
-
-.outline-title-wrapper {
-    display: none;
-}
-
-.dropdown-menu .divider {
-    display: none;
-    height: 2px;
-    background-color: hsl(0, 0%, 13%);
-}
-
-.dropdown-menu>li>a {
-    color: #fff;
-}
-
-.autoComplt-hint {
-    color: #42b983 !important;
-    /* border-color: transparent !important */
-}
-
-.auto-suggest-container {
-    color: #42b983 !important;
-    font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important;
-    font-weight: bold !important;
-    border-color: #42b983 !important;
-    border-radius: 8px !important;
-    border-width: 2px !important;
-    margin-top: 5px;
-    overflow: hidden !important;
-    box-shadow: 0 0 1rem hsla(153, 47%, 49%, 0.3);
-}
-
-/* .auto-suggest-container li { */
-    /* transition: all 150ms; */
-    /* text-align: center !important; */
-/* } */
-
-.auto-suggest-container li:hover {
-    color: #fff !important;
-    background-color: #42b983 !important;
-    /* text-align: right !important; */
-}
-
-/* windows */
-/* .modal-dialog { */
-    /* color: #000; */
-/* } */
-
-.typora-sourceview-on #toggle-sourceview-btn{
-    background-color: #42b983
-}
-
-/* cursor */
-.CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
-    border-left: 5px solid #42b983;
-}
-
-.CodeMirror div.CodeMirror-cursor {
-    border-left: 5px solid #42b983;
-    z-index: 3;
-}
-
-/* selected text */
-/* .CodeMirror-selecte { */
-    /* background-color: hsla(153, 47%, 49%, 0.5) !important; */
-    /* color: #fff !important; */
-/* } */
 
  .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
 </style>
 </head>
 <body class='typora-export' >
-<div  id='write'  class = 'is-mac'><h1><a name="vscode-svn相关插件" class="md-header-anchor"></a><span>vscode svn相关插件</span></h1><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n59"><a class="md-toc-inner" href="#vscode-svn相关插件">vscode svn相关插件</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n62"><a class="md-toc-inner" href="#下载">下载</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n71"><a class="md-toc-inner" href="#使用说明">使用说明</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n73"><a class="md-toc-inner" href="#检出项目">检出项目</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n82"><a class="md-toc-inner" href="#注意事项">注意事项</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n84"><a class="md-toc-inner" href="#常用操作">常用操作</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n85"><a class="md-toc-inner" href="#1-查看文件变更历史">1. 查看文件变更历史</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n88"><a class="md-toc-inner" href="#2-加入暂存区set-changelist">2. 加入暂存区(set changeList)</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n96"><a class="md-toc-inner" href="#3--修改暂存区的内容">3.  修改暂存区的内容</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n99"><a class="md-toc-inner" href="#40--将暂存区的内容加入changelist">4.0  将暂存区的内容加入<code>changeList</code></a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n102"><a class="md-toc-inner" href="#41--提交暂存区的内容到版本库">4.1  提交暂存区的内容到版本库</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n108"><a class="md-toc-inner" href="#5-查看日志">5. 查看日志</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n110"><a class="md-toc-inner" href="#6-删除文件">6. 删除文件</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n114"><a class="md-toc-inner" href="#7-解决冲突">7. 解决冲突</a></span></p></div><h2><a name="下载" class="md-header-anchor"></a><span>下载</span></h2><p><span>svn插件需要依赖本地装有svn server端，</span></p><p><span>程序下载地址：</span></p><p><a href='https://www.jianguoyun.com/p/DSpZVGgQ0vvwBxji7ZkC' target='_blank' class='url'>https://www.jianguoyun.com/p/DSpZVGgQ0vvwBxji7ZkC</a></p><p><span>下载完成后安装，然后再安装vscode的插件</span></p><p><span>vscode插件下载地址：</span></p><p><a href='https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm' target='_blank' class='url'>https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm</a></p><p><span>或者在编辑器中搜索 svn,下载作者是 Chris Johnston的svn插件</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ymkh7lgwj30zs0eq77h.jpg" referrerpolicy="no-referrer" alt="image-20191115124516971"></p><h2><a name="使用说明" class="md-header-anchor"></a><span>使用说明</span></h2><p><span>以拨测前端项目为例，首先使用 </span><code>tortoisesvn</code><span>检出拨测前端项目</span></p><h3><a name="检出项目" class="md-header-anchor"></a><span>检出项目</span></h3><p><span>首先，新建文件夹 </span><code>monitor-web</code><span>,进入文件夹，右键</span><code>svn checkout</code><span>,填入项目信息</span></p><ul><li><span>url:</span><a href='http://10.1.1.212/svn/iip/vrbt-migu-service-monitor/ringtone-video-monito-web/trunk' target='_blank' class='url'>http://10.1.1.212/svn/iip/vrbt-migu-service-monitor/ringtone-video-monito-web/trunk</a></li></ul><p><span>点击ok</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8yn34fep4j30gi0craaw.jpg" referrerpolicy="no-referrer" alt="image-20191115130314481"></p><p>&nbsp;</p><p><span>检出完成后，把项目拖进vscode进行编辑</span></p><h3><a name="注意事项" class="md-header-anchor"></a><span>注意事项</span></h3><p><span>vscode根据项目下的.svn文件，进行版本管理的，把项目拖入vscode时不要一次拖入多个，一个svn项目拖入一个vscode窗口</span></p><h3><a name="常用操作" class="md-header-anchor"></a><span>常用操作</span></h3><h4><a name="1-查看文件变更历史" class="md-header-anchor"></a><span>1. 查看文件变更历史</span></h4><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8yn84rgklj30wu0lsq80.jpg" referrerpolicy="no-referrer" alt="image-20191115130803551"></p><p>&nbsp;</p><h4><a name="2-加入暂存区set-changelist" class="md-header-anchor"></a><span>2. 加入暂存区(set changeList)</span></h4><p><span>在svn中，有一个</span><code>（变更列表）changeList</code><span>的概念，可以将不同的任务的代码变更统一到一起，例如：</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6gy1g91dr8r6clj30d70az3zi.jpg" referrerpolicy="no-referrer" alt="image-20191117215707687"></p><p>&nbsp;</p><p><span>在根目录下新建 </span><code>test-svn</code><span>文件夹，在文件夹下新建</span><code>test.html</code><span>，在侧边栏就会显示更改</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ynbizhx6j30mk0ldmyj.jpg" referrerpolicy="no-referrer" alt="image-20191115131118145"></p><p><span>加入暂存区后，刚才的文件就会出现在 </span><code>Changes</code><span>区域</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypg75wppj30fa09hwey.jpg" referrerpolicy="no-referrer" alt="image-20191115142500790"></p><h3><a name="3--修改暂存区的内容" class="md-header-anchor"></a><span>3.  修改暂存区的内容</span></h3><p><span>修改暂存区的内容，此次变更也会在暂存区出现，例如修改下</span><code>README.md</code><span>文件，并保存</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypibzhusj30np08vq4d.jpg" referrerpolicy="no-referrer" alt="image-20191115142703487"></p><h3><a name="40--将暂存区的内容加入changelist" class="md-header-anchor"></a><span>4.0  将暂存区的内容加入</span><code>changeList</code></h3><p><span>鼠标移动到文件改动上，右键选择</span><code>set changeList</code><span>，根据功能，将代码加入不同的变更列表</span></p><p><span>代码不加入changeList也可以正常提交，加入只是为了区分任务,，分功能点进行提交</span></p><h3><a name="41--提交暂存区的内容到版本库" class="md-header-anchor"></a><span>4.1  提交暂存区的内容到版本库</span></h3><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypju3oqej30dn0gjdgw.jpg" referrerpolicy="no-referrer" alt="image-20191115142830213"></p><p>&nbsp;</p><p><span>点击commit之后，会提示填写提交信息，格式：提交人：此次提交内容</span></p><p>&nbsp;</p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypleqetdj30im0b70t7.jpg" referrerpolicy="no-referrer" alt="image-20191115143000646"></p><h3><a name="5-查看日志" class="md-header-anchor"></a><span>5. 查看日志</span></h3><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypo0x9zoj30fl0rcwij.jpg" referrerpolicy="no-referrer" alt="image-20191115143231640"></p><h3><a name="6-删除文件" class="md-header-anchor"></a><span>6. 删除文件</span></h3><p><span>删除文件后，vscode会提示是否在svn版本库中进行删除，点击Yes,然后提交变更就可以删除该文件</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypqfwlc1j30wp0s2afd.jpg" referrerpolicy="no-referrer" alt="image-20191115143450514"></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8yprlqbypj30s70cw3zm.jpg" referrerpolicy="no-referrer" alt="image-20191115143557790"></p><h3><a name="7-解决冲突" class="md-header-anchor"></a><span>7. 解决冲突</span></h3><p><span>两个人同时修改一个文件时就会出现冲突，svn插件在发生冲突时会让你选择应用哪个更改，一般操作是先对比，然后根据实际情况决定应用哪个更改</span></p></div>
+<div  id='write'  class = 'is-mac'><h1><a name="vscode-svn相关插件" class="md-header-anchor"></a><span>vscode svn相关插件</span></h1><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n0"><a class="md-toc-inner" href="#vscode-svn相关插件">vscode svn相关插件</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n3"><a class="md-toc-inner" href="#下载">下载</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n12"><a class="md-toc-inner" href="#使用说明">使用说明</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n14"><a class="md-toc-inner" href="#检出项目">检出项目</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n23"><a class="md-toc-inner" href="#注意事项">注意事项</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n25"><a class="md-toc-inner" href="#常用操作">常用操作</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n26"><a class="md-toc-inner" href="#1-查看文件变更历史">1. 查看文件变更历史</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n29"><a class="md-toc-inner" href="#2-加入暂存区set-changelist">2. 加入暂存区(set changeList)</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n37"><a class="md-toc-inner" href="#3--修改暂存区的内容">3.  修改暂存区的内容</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n40"><a class="md-toc-inner" href="#40--将暂存区的内容加入changelist">4.0  将暂存区的内容加入<code>changeList</code></a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n43"><a class="md-toc-inner" href="#41--提交暂存区的内容到版本库">4.1  提交暂存区的内容到版本库</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n49"><a class="md-toc-inner" href="#5-查看日志">5. 查看日志</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n51"><a class="md-toc-inner" href="#6-删除文件">6. 删除文件</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n55"><a class="md-toc-inner" href="#7-解决冲突">7. 解决冲突</a></span></p></div><h2><a name="下载" class="md-header-anchor"></a><span>下载</span></h2><p><span>svn插件需要依赖本地装有svn server端，</span></p><p><span>程序下载地址：</span></p><p><a href='https://www.jianguoyun.com/p/DSpZVGgQ0vvwBxji7ZkC' target='_blank' class='url'>https://www.jianguoyun.com/p/DSpZVGgQ0vvwBxji7ZkC</a></p><p><span>下载完成后安装，然后再安装vscode的插件</span></p><p><span>vscode插件下载地址：</span></p><p><a href='https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm' target='_blank' class='url'>https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm</a></p><p><span>或者在编辑器中搜索 svn,下载作者是 Chris Johnston的svn插件</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ymkh7lgwj30zs0eq77h.jpg" referrerpolicy="no-referrer" alt="image-20191115124516971"></p><h2><a name="使用说明" class="md-header-anchor"></a><span>使用说明</span></h2><p><span>以拨测前端项目为例，首先使用 </span><code>tortoisesvn</code><span>检出拨测前端项目</span></p><h3><a name="检出项目" class="md-header-anchor"></a><span>检出项目</span></h3><p><span>首先，新建文件夹 </span><code>monitor-web</code><span>,进入文件夹，右键</span><code>svn checkout</code><span>,填入项目信息</span></p><ul><li><span>url:</span><a href='http://10.1.1.212/svn/iip/vrbt-migu-service-monitor/ringtone-video-monito-web/trunk' target='_blank' class='url'>http://10.1.1.212/svn/iip/vrbt-migu-service-monitor/ringtone-video-monito-web/trunk</a></li></ul><p><span>点击ok</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8yn34fep4j30gi0craaw.jpg" referrerpolicy="no-referrer" alt="image-20191115130314481"></p><p>&nbsp;</p><p><span>检出完成后，把项目拖进vscode进行编辑</span></p><h3><a name="注意事项" class="md-header-anchor"></a><span>注意事项</span></h3><p><span>vscode根据项目下的.svn文件，进行版本管理的，把项目拖入vscode时不要一次拖入多个，一个svn项目拖入一个vscode窗口</span></p><h3><a name="常用操作" class="md-header-anchor"></a><span>常用操作</span></h3><h4><a name="1-查看文件变更历史" class="md-header-anchor"></a><span>1. 查看文件变更历史</span></h4><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8yn84rgklj30wu0lsq80.jpg" referrerpolicy="no-referrer" alt="image-20191115130803551"></p><p>&nbsp;</p><h4><a name="2-加入暂存区set-changelist" class="md-header-anchor"></a><span>2. 加入暂存区(set changeList)</span></h4><p><span>在svn中，有一个</span><code>（变更列表）changeList</code><span>的概念，可以将不同的任务的代码变更统一到一起，例如：</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6gy1g91dr8r6clj30d70az3zi.jpg" referrerpolicy="no-referrer" alt="image-20191117215707687"></p><p>&nbsp;</p><p><span>在根目录下新建 </span><code>test-svn</code><span>文件夹，在文件夹下新建</span><code>test.html</code><span>，在侧边栏就会显示更改</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ynbizhx6j30mk0ldmyj.jpg" referrerpolicy="no-referrer" alt="image-20191115131118145"></p><p><span>加入暂存区后，刚才的文件就会出现在 </span><code>Changes</code><span>区域</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypg75wppj30fa09hwey.jpg" referrerpolicy="no-referrer" alt="image-20191115142500790"></p><h3><a name="3--修改暂存区的内容" class="md-header-anchor"></a><span>3.  修改暂存区的内容</span></h3><p><span>修改暂存区的内容，此次变更也会在暂存区出现，例如修改下</span><code>README.md</code><span>文件，并保存</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypibzhusj30np08vq4d.jpg" referrerpolicy="no-referrer" alt="image-20191115142703487"></p><h3><a name="40--将暂存区的内容加入changelist" class="md-header-anchor"></a><span>4.0  将暂存区的内容加入</span><code>changeList</code></h3><p><span>鼠标移动到文件改动上，右键选择</span><code>set changeList</code><span>，根据功能，将代码加入不同的变更列表</span></p><p><span>代码不加入changeList也可以正常提交，加入只是为了区分任务,，分功能点进行提交</span></p><h3><a name="41--提交暂存区的内容到版本库" class="md-header-anchor"></a><span>4.1  提交暂存区的内容到版本库</span></h3><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypju3oqej30dn0gjdgw.jpg" referrerpolicy="no-referrer" alt="image-20191115142830213"></p><p>&nbsp;</p><p><span>点击commit之后，会提示填写提交信息，格式：提交人：此次提交内容</span></p><p>&nbsp;</p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypleqetdj30im0b70t7.jpg" referrerpolicy="no-referrer" alt="image-20191115143000646"></p><h3><a name="5-查看日志" class="md-header-anchor"></a><span>5. 查看日志</span></h3><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypo0x9zoj30fl0rcwij.jpg" referrerpolicy="no-referrer" alt="image-20191115143231640"></p><h3><a name="6-删除文件" class="md-header-anchor"></a><span>6. 删除文件</span></h3><p><span>删除文件后，vscode会提示是否在svn版本库中进行删除，点击Yes,然后提交变更就可以删除该文件</span></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8ypqfwlc1j30wp0s2afd.jpg" referrerpolicy="no-referrer" alt="image-20191115143450514"></p><p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8yprlqbypj30s70cw3zm.jpg" referrerpolicy="no-referrer" alt="image-20191115143557790"></p><h3><a name="7-解决冲突" class="md-header-anchor"></a><span>7. 解决冲突</span></h3><p><span>两个人同时修改一个文件时就会出现冲突，svn插件在发生冲突时会让你选择应用哪个更改，一般操作是先对比，然后根据实际情况决定应用哪个更改</span></p></div>
 </body>
 </html>

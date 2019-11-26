@@ -171,3 +171,7 @@ publish over ssh的配置包括两部分，一部分是全局配置，针对所�
 
 
 ![image-20191022224104475](https://tva1.sinaimg.cn/large/006y8mN6ly1g87cwyknutj31bo0qqak1.jpg)
+
+### 配置发送邮件
+
+https://zhuanlan.zhihu.com/p/22810691

@@ -132,3 +132,12 @@ new Vue({
 })
 ```
 
+## 7. vue v-for循环渲染的元素列表需要绑定key属性
+
+[原因，点击查看]([https://cn.vuejs.org/v2/guide/list.html#%E7%BB%B4%E6%8A%A4%E7%8A%B6%E6%80%81](https://cn.vuejs.org/v2/guide/list.html#维护状态))
+
+1. key必须是基本类型，如数字，字符串,不能是引用类型，如数组，对象等
+
+2. key最好不要使用索引，可以使用id
+
+    
