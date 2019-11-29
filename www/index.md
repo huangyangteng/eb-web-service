@@ -42,7 +42,7 @@
 
 ## 服务
 
-* [技术分享排期](http://10.1.62.116:8888/ppt-share/index.html)
+* [技术分享排期](http://www.eb-web.club:8888/ppt-share/)
 * [技术分享已完成](ppt-share-done.html)
 
 ## 说明
