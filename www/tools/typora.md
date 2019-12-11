@@ -5,6 +5,8 @@
 > * 地址1：https://www.jianguoyun.com/p/DWi4dGwQ0vvwBxjVoqIC
 > * 地址2：https://www.typora.io/
 
+
+
 ## 布局
 
 左侧是侧边栏，右侧是编辑区
@@ -79,11 +81,5 @@ typora插入图片有两种使用，一种是复制到本地某个文件夹（�
 
 ## 导出
 
-支持导出html,pdf,word等格式
-
-| titile1 | title2 |      |
-| ------- | ------ | ---- |
-| 1       | 2      |      |
-| 3       | 4      |      |
-|         |        |      |
+支持导出html,pdf,word,图片等格式
 
