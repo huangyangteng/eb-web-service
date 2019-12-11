@@ -11,6 +11,7 @@
 * [postman使用教程](postman.html)
 * [informix数据库图形界面使用](connect-db.html)
 * [vscode编辑器教程](https://www.jianguoyun.com/p/DUS0z5UQ0vvwBxjss5cC)
+* [typora(markdown编辑器)使用](typora.html)
 * [nginx安装与使用](nginx.html)
 * [jenkins安装与使用](jenkins.html)
 
@@ -40,10 +41,11 @@
 
 
 
-## 服务
+## 一些服务
 
-* [技术分享排期](http://www.eb-web.club:8888/ppt-share/)
-* [技术分享已完成](ppt-share-done.html)
+* [技术分享排期](ppt-share/)
+* [前端每周分享](week-share/)
+* [拨测开发进度](monitor/)
 
 ## 说明
 

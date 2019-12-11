@@ -1,18 +1,12 @@
-# 媒体产品部前端资料——文档
+# 媒体产品部前端资料库
 
-## 目录结构
+## 主要内容
 
-* www 
-  * developNorm        开发规范
-  * study              学习资源
-  * job                工作
-  * linux              linux
-  * project            项目总结
-  * study              学习资源
-  * tools              工具
-  * versionControl     版本控制
-* server
-* index.md            首页
+* 前端资料
+* 前端每周分享
+* 技术分享排期
+
+
 
 ## 如何为资料库增加内容
 
