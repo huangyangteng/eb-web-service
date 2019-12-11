@@ -20,7 +20,7 @@ var SHARE_LIST=[
 ]
 
 // ----------------  设置分享开始时间
-var START_TIME='2019-11-22'
+var START_TIME='2019-11-29'
 
 var today=dayjs().format('YYYY-MM-DD')
 
@@ -28,9 +28,6 @@ SHARE_LIST.forEach(function(item,index){
     // 设置开始日期
     item.date=START_TIME
     START_TIME=dayjs(START_TIME).add(7,'day').format('YYYY-MM-DD')
-
-    
-
 
 })
 //----------------- 过滤掉已经讲过的
