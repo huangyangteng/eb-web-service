@@ -52,6 +52,8 @@ console.log(obj.name)   //sven
 
 ### Function.prototype.call 或Function.prototype.apply调用
 
+>  apply方法参考链接：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
+
 call和apply方法可以动态改变传入函数的this
 
 ```js
@@ -73,11 +75,10 @@ console.log(obj1.getName.call(obj2))
 ### 练习
 
 ```js
+
 var vm=new Vue({
     data:{
-      userList:[
-          
-      ]  
+      userList:[1]  
     },
     mounted(){
         //--------------- 例子1：
