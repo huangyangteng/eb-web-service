@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/huangyangteng/eb-web-service/issues"
   },
-  "homepage": "https://github.com/huangyangteng/eb-web-service#readme"
+  "homepage": "https://github.com/huangyangteng/eb-web-service#readme",
+  "dependencies": {
+    "node-schedule": "^1.3.2"
+  }
 }
