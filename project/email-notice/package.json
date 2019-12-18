@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dayjs": "^1.8.17"
+    "dayjs": "^1.8.17",
+    "nodemailer": "^6.4.2"
   }
 }
