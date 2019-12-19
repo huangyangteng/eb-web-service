@@ -6,9 +6,12 @@
 
 ## 项目信息
 
-svn地址(后端):http://10.1.1.212/svn/iip/ims-mrbt/ims-mngr-web
-svn地址(前端):http://10.1.1.212/svn/iip/ims-mrbt/ims-mngr-webapp
-文档：前端文档在前端项目中的README.md文件中
+* 项目svn地址
+    * 后端:http://10.1.1.212/svn/iip/ims-mrbt/ims-mngr-web
+    * 前端:http://10.1.1.212/svn/iip/ims-mrbt/ims-mngr-webapp
+* 文档：
+    * 前端项目文档 http://10.1.1.212/svn/iip/ims-mrbt/ims-mngr-webapp/trunk/src/main/webapp/README.md
+    * 接口文档 http://10.1.1.212/svn/iip/ims-mrbt/ims-mngr-webapp/trunk/src/main/webapp/API_LIST.md
 
 ## 团队成员
 
