@@ -311,17 +311,56 @@ export default{
 }
 ```
 
-
-
  ## vuex管理全局状态
 
+使用vuex将系统中涉及到的全局状态统一管理起来
+
+目录结构
+
+```
+src
+	store
+		index.js     导出vuex的实例
+		mutation-types.js    管理所有的mutation
+		modules    分模块划分状态
+```
+
+### vuex与localStorage结合
+
+首先，需要安装`vuex-persistedstate`，该插件会在状态变更时把store中的状态储存在localStorage中
+
+```js
+npm i vuex-persistedstate -S
+```
+
+引入：
+
+![image-20191229210104983](https://tva1.sinaimg.cn/large/006tNbRwgy1gadw5u136jj316w0t8wje.jpg)
+
+### 分模块管理状态
+
+以用户管理模块为例
+
+在modules目录下新建user.js，键入以下内容，
+
+![image-20191229211030010](https://tva1.sinaimg.cn/large/006tNbRwgy1gadwfl7oyhj316g0u0q8f.jpg)
 
 
 
+其中用户模块相关的mutation在mutation-types.js中定义
+
+```js
+//mutation-types.js
+const USER={
+    LOGIN:'login',
+    LOGOUT:'logout',
+    UPDATE_JWT:'updateJwt',
+    UPDATE_NUM:'updateNum'
+}
 
 
-
-
+export {USER}
+```
 
 
 

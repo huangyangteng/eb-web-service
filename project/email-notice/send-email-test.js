@@ -1,15 +1,7 @@
 const nodemailer = require('nodemailer')
-const Tools = require('./tools')
+const Tools = require('./util/tools')
+const transporter=require('./config/transporter')
 
-let transporter = nodemailer.createTransport({
-    service:'qq',
-    port:465,
-    secureConnection:true,
-    auth:{
-        user:'3034647379@qq.com',
-        pass:'phidispmrlsydcjh'
-    }
-})
 let noticeList=Tools.getJsonByFile('./noticeList.json')
 console.log("TCL: noticeList", noticeList)
 

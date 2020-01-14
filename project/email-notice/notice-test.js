@@ -1,6 +1,4 @@
 const schedule = require('node-schedule')
-const sendEmail = require('./config/sendEmail')
-
 // *  *  *  *  *  *
 // ┬ ┬ ┬ ┬ ┬ ┬
 // │ │ │ │ │  |
@@ -11,17 +9,10 @@ const sendEmail = require('./config/sendEmail')
 // │ └──────────────────── minute (0 - 59)
 // └───────────────────────── second (0 - 59, OPTIONAL)
 
-
 const scheduleCronstyle = ()=>{
-    // schedule.scheduleJob('30 01 21 * * 2',()=>{
-    //     console.log('scheduleCronstyle:' + new Date())
-    //     sendEmail()
-    // })
-    schedule.scheduleJob('30 * * * * *',()=>{
+    schedule.scheduleJob('30 28 20 * * 2',()=>{
         console.log('scheduleCronstyle:' + new Date())
-        sendEmail('test')
     })
 }
+
 scheduleCronstyle()
-
-
